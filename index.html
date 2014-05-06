@@ -1,0 +1,74 @@
+<!--#include file="./common/header.html"-->
+
+	<link rel="stylesheet" href="./css/nivo_stylesheet.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="./css/nivo_slider_stylesheet.css" type="text/css" media="screen"/>
+	
+	<script src="./js/jquery-1.4.3.min.js" type="text/javascript"></script>
+	<script src="./js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	
+	<div class="cleanerWithHeight">&nbsp;</div>
+	<div class="cleanerWithHeight">&nbsp;</div>
+	<div class="cleanerWithHeight">&nbsp;</div>
+	<div class="cleaner">&nbsp;</div>
+		
+	<div id="gallerySection">
+		<div id="slider">	
+			<img src="./images/Background_City_1.jpg" alt="" title="#htmlcaption1"/>
+			<div id="htmlcaption1" class="nivo-html-caption"> 
+				<strong>Concept Art</strong>
+			</div>
+			<img src="./images/City_Background_Wide_View.png" alt="" title="#htmlcaption2"/>
+			<div id="htmlcaption2" class="nivo-html-caption"> 
+				<strong>City Background, Wide View</strong>
+			</div>
+			<!--
+			<img src="./images/..." alt="" title="#htmlcaption3"/>
+			<div id="htmlcaption3" class="nivo-html-caption"> 
+				<strong>Image 3</strong>
+			</div>
+			<img src="./images/..." alt="" title="#htmlcaption4"/>
+			<div id="htmlcaption4" class="nivo-html-caption"> 
+				<strong>Image 4</strong>
+			</div>
+			<img src="./images/..." alt="" title="#htmlcaption5"/>
+			<div id="htmlcaption5" class="nivo-html-caption"> 
+				<strong>Image 5</strong>
+			</div>
+			-->
+		</div>
+			
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider( {
+					effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+					slices: 6, // For slice animations
+					boxCols: 8, // For box animations
+					boxRows: 4, // For box animations
+					animSpeed: 800, // Slide transition speed
+					pauseTime: 2400, // How long each slide will show
+					startSlide: 0, // Set starting Slide (0 index)
+					directionNav: true, // Next & Prev navigation
+					controlNav: false, // 1,2,3... navigation
+					controlNavThumbs: false, // Use thumbnails for Control Nav
+					pauseOnHover: true, // Stop animation while hovering
+					manualAdvance: true, // Force manual transitions
+					prevText: 'Prev', // Prev directionNav text
+					nextText: 'Next', // Next directionNav text
+					randomStart: true // Start on a random slide
+				} ); 
+			} );
+		</script>
+	</div>
+
+	<div id="section1">
+		<div id="content1">
+			<h1>Furry Beatdown</h1>
+			<p>Save the city from robotic mammals!</p>
+		</div> <!-- end of box1 -->
+
+		<!--#include file="./common/sidebox.html"--> <!-- sidebox -->		
+
+		<div class="cleanerWithHeight">&nbsp;</div>
+	</div> <!-- end of section1 -->
+
+<!--#include file="./common/footer.html"-->
