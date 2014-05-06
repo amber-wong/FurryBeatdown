@@ -159,7 +159,7 @@ p {
 #nameContainer img {
 	/*border-radius: 6px;*/
 	border-bottom-left-radius: 5px; /*6*/
-	border-bottom: 2px #191919 solid;
+	/*border-bottom: 2px #191919 solid;*/
 }
 
 #topPanel #menuContainer {
@@ -179,7 +179,7 @@ p {
 	height: 227px;
 	position: relative;
 	border-bottom-right-radius: 6px;
-	border-bottom: 2px #191919 solid;
+	/*border-bottom: 2px #191919 solid;*/
 }
 
 .linkContainer .imgContainer {
