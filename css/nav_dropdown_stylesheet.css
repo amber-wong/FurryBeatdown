@@ -5,7 +5,7 @@
 	border-right: 1px #353535 solid;
 	border-left: 1px #353535 solid;
 	border-top: 1px #353535 solid;
-	border-bottom: 3px #353535 solid;
+	border-bottom: 4px #353535 solid; /*3px*/
 	/*border-radius: 6px;*/
 	border-bottom-right-radius: 6px;
     position:relative;
